@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="POS.opening">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="5">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="501" height="398"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="66d0c" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="20">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="500" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-862551"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="aa36f" class="javax.swing.JButton" binding="테이블3Button">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 3"/>
+            </properties>
+          </component>
+          <component id="628fd" class="javax.swing.JButton" binding="테이블2Button">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 2"/>
+            </properties>
+          </component>
+          <component id="fb084" class="javax.swing.JButton" binding="테이블1Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 1"/>
+            </properties>
+          </component>
+          <component id="a7f31" class="javax.swing.JButton" binding="테이블4Button">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 4"/>
+            </properties>
+          </component>
+          <component id="d52a9" class="javax.swing.JButton" binding="테이블5Button">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 5"/>
+            </properties>
+          </component>
+          <component id="f2199" class="javax.swing.JButton" binding="테이블6Button">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 6"/>
+            </properties>
+          </component>
+          <component id="bf88f" class="javax.swing.JButton" binding="테이블9Button">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 9"/>
+            </properties>
+          </component>
+          <component id="fb119" class="javax.swing.JButton" binding="테이블8Button">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 8"/>
+            </properties>
+          </component>
+          <component id="1234b" class="javax.swing.JButton" binding="테이블7Button">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 7"/>
+            </properties>
+          </component>
+          <component id="bbd6a" class="javax.swing.JButton" binding="테이블10Button">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="80" height="80"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="테이블 10"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="eaf9e" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d455a" class="javax.swing.JButton" binding="결제목록Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="결제 목록"/>
+            </properties>
+          </component>
+          <component id="46207" class="javax.swing.JButton" binding="매출현황Button" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="매출 현황"/>
+            </properties>
+          </component>
+          <component id="2848f" class="javax.swing.JButton" binding="이전">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4490125"/>
+              <text value="이전"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
