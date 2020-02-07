@@ -20,9 +20,33 @@ public class opening {
     private JButton 테이블7Button;
     private JButton 테이블8Button;
     private JButton 테이블10Button;
+    private JTextField t1;
+    private JTextField t2;
+    private JTextField t3;
+    private JTextField t4;
+    private JTextField t5;
+    private JTextField t6;
+    private JTextField t7;
+    private JTextField t8;
+    private JTextField t9;
+    private JTextField t10;
 
 
     public opening() {
+        String[] money = new String[10];
+        dbconn db = new dbconn();
+        for( int i =0; i<2; i++) {
+            db.select("select sum(oprice) from table"+(i+1));
+            try {
+                while (db.rs.next()) {
+                    money[i] = db.rs.getString("sum(oprice)");
+                }
+            } catch (SQLException e) {e.printStackTrace(); }
+        }
+        try { db.conn.close(); } catch (SQLException e) { e.printStackTrace(); }
+        t1.setText(money[0]);
+        t2.setText(money[1]);
+
         이전.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

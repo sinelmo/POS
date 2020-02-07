@@ -30,7 +30,7 @@ public class sales {
         }
         결제예정.setText(Integer.toString(sale));
 
-        //==============결제 완료 금액============================
+        //==============결제 완료 금액==================
         int sale2 = 0;
         db.select("select sum(sales) from sales");
         try {
