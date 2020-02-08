@@ -83,7 +83,7 @@ public class menu {
             String menuPrice = db.rs.getString("price");
             strM[i] = menuName;
             strP[i] = menuPrice;
-            System.out.println("등록 된 메뉴 명 : "+strM[i]);
+            //System.out.println("등록 된 메뉴 명 : "+strM[i]);
             i++;
         }
         db.conn.close();

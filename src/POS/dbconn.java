@@ -21,7 +21,7 @@ public class dbconn {
             while(rs.next()){
                 id = rs.getString("id");
                 pw = rs.getString("password");
-                System.out.println(id + pw);
+                //System.out.println(id + pw);
             }
         } catch (Exception e){
             e.printStackTrace();

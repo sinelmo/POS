@@ -279,7 +279,7 @@ public class table {
             menu[i] = db.rs.getString("name");
             price[i] = db.rs.getInt("price");
             str[i] = menu[i]+" "+price[i];
-            System.out.println("추가 된 메뉴 : "+str[i]);
+            //System.out.println("추가 된 메뉴 : "+str[i]);
             i++;
         }
         db.conn.close();
@@ -319,7 +319,7 @@ public class table {
             String menuPrice = db.rs.getString("oprice");
             int count = db.rs.getInt("count");
             strM[i] = num + " " + menuName + " " + menuPrice + " " + count;
-            System.out.println("등록 된 메뉴 명 : "+strM[i]);
+            //System.out.println("등록 된 메뉴 명 : "+strM[i]);
             i++;
         }
         db.conn.close();
