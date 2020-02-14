@@ -1,14 +1,15 @@
 package POS;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumnModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
 
 public class sunho {
     public JPanel panel1;
-    private JButton 그래프Button;
     private JButton 이전Button;
     private JTable table1;
 
@@ -19,7 +20,7 @@ public class sunho {
 
 
         dbconn db = new dbconn();
-        db.select("select * from sunho");
+        db.select("select * from sunho order by count desc");
         int i = 0;
         try {
             while (db.rs.next()){
@@ -32,9 +33,18 @@ public class sunho {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
+        //테이블 모델 선언
         DefaultTableModel model = new DefaultTableModel(contents, header);
+        //테이블 셋 모델
         table1.setModel(model);
+        //셀 높이 조절
+        table1.setRowHeight(20);
+        //중앙 정렬
+        DefaultTableCellRenderer dt = new DefaultTableCellRenderer();
+        dt.setHorizontalAlignment(SwingConstants.CENTER);
+        TableColumnModel tc = table1.getColumnModel();
+        tc.getColumn(1).setCellRenderer(dt);
+
 
 
         이전Button.addActionListener(new ActionListener() {

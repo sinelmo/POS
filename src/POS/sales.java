@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
 
-public class sales {
+public class sales extends JFrame {
     private JTextArea 결제예정;
     public JPanel panel1;
     private JTextArea 결제완료;

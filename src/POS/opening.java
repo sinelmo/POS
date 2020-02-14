@@ -8,7 +8,6 @@ import java.sql.SQLException;
 public class opening {
     protected JPanel panel;
     private JButton 테이블1Button;
-    private JButton 결제목록Button;
     private JButton 매출현황Button;
     private JButton 이전;
     private JButton 테이블2Button;
@@ -86,11 +85,12 @@ public class opening {
         매출현황Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Login.frame.setContentPane(new sales().panel1);
-                Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                Login.frame.pack();
-                Login.frame.setLocationRelativeTo(null);
-                Login.frame.setVisible(true);
+                sales sales = new sales();
+                sales.setContentPane(new sales().panel1);
+                sales.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                sales.pack();
+                sales.setLocationRelativeTo(null);
+                sales.setVisible(true);
             }
         });
     }
