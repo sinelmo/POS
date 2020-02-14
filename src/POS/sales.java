@@ -47,15 +47,5 @@ public class sales extends JFrame {
         sale = sale + sale2;
         총매출.setText(String.valueOf(sale));
 
-        이전Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Login.frame.setContentPane(new opening().panel);
-                Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                Login.frame.pack();
-                Login.frame.setLocationRelativeTo(null);
-                Login.frame.setVisible(true);
-            }
-        });
     }
 }
