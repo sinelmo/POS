@@ -15,8 +15,6 @@ public class table {
     private JButton m2;
     private JButton m4;
     private JButton m3;
-    private JButton plusButton;
-    private JButton minusButton;
     private JButton m1;
     private JButton m7;
     private JButton m21;

@@ -36,14 +36,14 @@
               <text value="월"/>
             </properties>
           </component>
-          <component id="1cbb" class="javax.swing.JButton" binding="년Button" default-binding="true">
+          <component id="1cbb" class="javax.swing.JButton" binding="그래프Button" default-binding="true">
             <constraints>
               <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="120" height="120"/>
               </grid>
             </constraints>
             <properties>
-              <text value="년"/>
+              <text value="그래프"/>
             </properties>
           </component>
           <component id="ac6fb" class="javax.swing.JButton" binding="이전Button" default-binding="true">

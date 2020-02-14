@@ -9,7 +9,7 @@ public class smanage {
     public JPanel panel1;
     private JButton 일Button;
     private JButton 월Button;
-    private JButton 년Button;
+    private JButton 그래프Button;
     private JButton 이전Button;
     public smanage() {
         이전Button.addActionListener(new ActionListener() {
@@ -56,6 +56,21 @@ public class smanage {
                 Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
 
+            }
+        });
+        그래프Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    Chart chart = new Chart();
+                    chart.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                    chart.pack();
+                    chart.setLocationRelativeTo(null);
+                    chart.setVisible(true);
+
+                } catch (SQLException ex) {
+                    ex.printStackTrace();
+                }
             }
         });
     }
