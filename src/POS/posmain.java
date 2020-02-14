@@ -22,6 +22,7 @@ public class posmain {
                 Login.frame.setContentPane(new opening().panel);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });
@@ -35,6 +36,7 @@ public class posmain {
                 }
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });
@@ -44,6 +46,7 @@ public class posmain {
                 Login.frame.setContentPane(new setpos().panel1);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });
@@ -64,6 +67,7 @@ public class posmain {
         Login.frame.setContentPane(new posmain().panel1);
         Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Login.frame.pack();
+        Login.frame.setLocationRelativeTo(null); //창 위치 중간으로
         Login.frame.setVisible(true);
     }
 }

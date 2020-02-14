@@ -19,6 +19,7 @@ public class setpos {
                 Login.frame.setContentPane(new pwchange().panel1);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });
@@ -34,6 +35,17 @@ public class setpos {
                 Login.frame.setContentPane(new smanage().panel1);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
+                Login.frame.setVisible(true);
+            }
+        });
+        선호메뉴Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Login.frame.setContentPane(new sunho().panel1);
+                Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });

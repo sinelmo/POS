@@ -38,6 +38,7 @@ public class menu {
                 //System.out.println("텍스트 필드 값 : "+textField1.getText());
                 String q = "insert into menu values('"+textField1.getText()+"', "+price+")";
                 db.select(q);
+                db.select("insert into sunho values('"+textField1.getText()+"', 0)");
                 db.close();
                 try {
                     setmenu();

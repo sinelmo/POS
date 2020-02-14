@@ -45,6 +45,7 @@ public class pwchange {
                 Login.frame.setContentPane(new setpos().panel1);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });

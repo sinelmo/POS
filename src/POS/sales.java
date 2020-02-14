@@ -53,6 +53,7 @@ public class sales {
                 Login.frame.setContentPane(new opening().panel);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });

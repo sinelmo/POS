@@ -51,6 +51,7 @@ public class table {
                 Login.frame.setContentPane(new opening().panel);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });
@@ -240,6 +241,7 @@ public class table {
                 Login.frame.setContentPane(new opening().panel);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });
@@ -250,6 +252,7 @@ public class table {
                 Login.frame.setContentPane(new opening().panel);
                 Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 Login.frame.pack();
+                Login.frame.setLocationRelativeTo(null);
                 Login.frame.setVisible(true);
             }
         });
@@ -260,6 +263,8 @@ public class table {
                 String[] str1 = str.split(" ");
                 dbconn db = new dbconn();
                 db.select("delete from "+ table +" where num='"+str1[0]+"'");
+                System.out.println("'"+str1[1]+"'");
+                db.select("update sunho set count=count-1 where name='"+str1[1]+"'");
                 try {
                     db.conn.close();
                     ordermenu(table);
@@ -302,6 +307,7 @@ public class table {
     public void plusmenu(int i, String str) throws  SQLException {
         dbconn db = new dbconn();
         db.select("insert into "+str+" values ((select nvl(max(num),0)+1 from "+str+"), '" + menu[i] + "'," + price[i] + ", 1)");
+        db.select("update sunho set count=count+1 where name='"+menu[i]+"'");
         int j = 0;
         db.conn.close();
     }
