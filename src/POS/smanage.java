@@ -34,5 +34,26 @@ public class smanage {
                 Login.frame.setVisible(true);
             }
         });
+        월Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dbconn db = new dbconn();
+                db.select("delete from monthsales");
+                int i = 1;
+                for (i = 1; i < 13; i++) {
+                    db.select("insert into monthsales values(('"+ i +"'), (select sum(sales) from daysales where day like '20/0" + i + "%'))");
+                }
+
+                try {
+                    Login.frame.setContentPane(new month().panel1);
+                } catch (SQLException ex) {
+                    ex.printStackTrace();
+                }
+                Login.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                Login.frame.pack();
+                Login.frame.setVisible(true);
+
+            }
+        });
     }
 }

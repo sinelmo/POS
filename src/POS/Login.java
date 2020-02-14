@@ -40,6 +40,7 @@ public class Login extends JFrame {
 		frame.setTitle("POS");
 		frame.setSize(300, 300);
 		frame.setVisible(true);
+		frame.setLocationRelativeTo(null); //창 위치 중간으로
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
