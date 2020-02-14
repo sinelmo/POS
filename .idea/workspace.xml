@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d90be972-654e-4386-b012-5afb6a4d8d1e" name="Default Changelist" comment="DATE 200215">
-      <change afterPath="$PROJECT_DIR$/src/POS/sunho.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/POS/sunho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/dayform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/dayform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/month.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/month.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/opening.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/opening.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/posmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/posmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/pwchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/pwchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/sales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/sales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/setpos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/setpos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/smanage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/smanage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/POS/table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/POS/table.java" afterDir="false" />
-    </list>
+    <list default="true" id="d90be972-654e-4386-b012-5afb6a4d8d1e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -408,14 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581698744191</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DATE 200215-2">
+      <created>1581709433333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581709433333</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25771812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25771812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -424,7 +417,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16595745" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16595745" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,7 +471,8 @@
     <MESSAGE value="vERSION 1.00" />
     <MESSAGE value="VERSION 1.00" />
     <MESSAGE value="DATE 200215" />
-    <option name="LAST_COMMIT_MESSAGE" value="DATE 200215" />
+    <MESSAGE value="DATE 200215-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="DATE 200215-2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="199" y="80" key="#Project_Structure" timestamp="1578941477652">
