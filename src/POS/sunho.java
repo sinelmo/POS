@@ -43,6 +43,7 @@ public class sunho {
         DefaultTableCellRenderer dt = new DefaultTableCellRenderer();
         dt.setHorizontalAlignment(SwingConstants.CENTER);
         TableColumnModel tc = table1.getColumnModel();
+        tc.getColumn(0).setCellRenderer(dt);
         tc.getColumn(1).setCellRenderer(dt);
 
 
