@@ -19,7 +19,6 @@ public class day {
         scroll1.setViewportView(list1);
         scroll2.setViewportView(list2);
 
-
         이전Button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
