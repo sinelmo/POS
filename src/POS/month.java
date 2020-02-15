@@ -37,7 +37,6 @@ public class month {
             b[i] = String.valueOf(sales);
             i++;
         }
-        // db.conn.close();
         list1.setListData(a);
         list2.setListData(b);
     }
