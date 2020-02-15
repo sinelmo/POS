@@ -67,7 +67,6 @@ public class smanage {
                     chart.pack();
                     chart.setLocationRelativeTo(null);
                     chart.setVisible(true);
-
                 } catch (SQLException ex) {
                     ex.printStackTrace();
                 }
