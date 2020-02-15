@@ -15,6 +15,7 @@
         </constraints>
         <properties/>
         <border type="none"/>
+        
         <children>
           <component id="c7a57" class="javax.swing.JLabel">
             <constraints>
