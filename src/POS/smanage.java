@@ -26,7 +26,7 @@ public class smanage {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    Login.frame.setContentPane(new dayform().panel1);
+                    Login.frame.setContentPane(new day().panel1);
                 } catch (SQLException ex) {
                     ex.printStackTrace();
                 }

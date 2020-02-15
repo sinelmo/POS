@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
 
-public class dayform {
+public class day {
     private JList list1;
     private JList list2;
     public JPanel panel1;
@@ -14,7 +14,7 @@ public class dayform {
     private JScrollPane scroll2;
     private JTextField 총매출;
 
-    public dayform() throws SQLException {
+    public day() throws SQLException {
 
         scroll1.setViewportView(list1);
         scroll2.setViewportView(list2);
