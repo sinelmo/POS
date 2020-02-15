@@ -12,6 +12,7 @@ public class setpos {
     private JButton 선호메뉴Button;
     private JButton 이전Button;
 
+    
     public setpos() {
         비밀번호변경Button.addActionListener(new ActionListener() {
             @Override
