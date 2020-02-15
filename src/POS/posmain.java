@@ -13,8 +13,6 @@ public class posmain {
     private JButton POS관리Button;
     private JButton 영업종료Button;
 
-    //private static JFrame f = new JFrame("POS 개발 - 김인권 신혜주");
-
     public posmain() {
         영업개시Button.addActionListener(new ActionListener() {
             @Override
