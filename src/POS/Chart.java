@@ -19,7 +19,6 @@ public class Chart extends JFrame {
 
     public Chart() throws SQLException {
         super("Day Sales");
-        // super(applicationTitle);
         JFreeChart barChart = ChartFactory.createBarChart
                 ("Day Sales", "", "", createDataset(), PlotOrientation.VERTICAL, true, true, false);
         ChartPanel chartPanel = new ChartPanel(barChart);
