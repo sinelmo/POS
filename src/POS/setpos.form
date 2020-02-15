@@ -25,6 +25,7 @@
             <properties>
               <text value="비밀번호  변경"/>
             </properties>
+            
           </component>
           <component id="3658f" class="javax.swing.JButton" binding="매출관리Button" default-binding="true">
             <constraints>
