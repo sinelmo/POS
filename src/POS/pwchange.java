@@ -37,7 +37,6 @@ public class pwchange {
                  }
 
             }
-
         });
         이전Button.addActionListener(new ActionListener() {
             @Override
