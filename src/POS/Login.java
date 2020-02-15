@@ -36,7 +36,6 @@ public class Login extends JFrame {
 	static Login frame = new Login();
 
 	public static void main(String[] args) {
-		//Login2 frame = new Login2();
 		frame.setTitle("POS");
 		frame.setSize(300, 300);
 		frame.setVisible(true);
