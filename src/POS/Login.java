@@ -19,7 +19,7 @@ public class Login extends JFrame {
 	JScrollPane scrollPane;
 	ImageIcon icon;
 	public Login(){
-		icon = new ImageIcon("./image/cat.jpg");
+		icon = new ImageIcon("./src/POS/cat.jpg");
 		JPanel panel = new JPanel(){
 
 			public void paintComponent(Graphics g){
