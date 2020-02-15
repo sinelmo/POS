@@ -62,6 +62,7 @@ public class menu {
                 dbconn db = new dbconn();
                 String name = (String) list1.getSelectedValue();
                 String q = "delete from menu where name='"+name+"'";
+                db.select("delete from sunho where name='"+name+"'");
                 db.select(q);
                 db.close();
                 try {
